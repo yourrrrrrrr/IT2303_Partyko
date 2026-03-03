@@ -86,7 +86,6 @@ class _MyHomePageState extends State<MyHomePage> {
               height: 309,
               child: Stack(
                 children: [
-                  // 1. Нижний слой: Сами картинки
                   PageView(
                     controller: _pageController,
                     children: [
